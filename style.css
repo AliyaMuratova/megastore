@@ -44,11 +44,6 @@ input {
     margin: 8px 0;
     height: 48px;
 }
-/*.calen {*/
-/*    background-image: url("./icons/calendar-regular.svg");*/
-/*    background-position: right;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
 .form-control {
     font-size: 14px;
     color: #DFDFDF;
