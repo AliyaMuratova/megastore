@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width:664px;
+    height: 576px;
+    padding: 40px 24px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.cont2 {
+    width: 664px;
+    height: 608px;
+}
+.title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.desc {
+    margin: 10px 0 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+}
+form div {
+    padding-left:8px !important;
+    padding-right: 8px !important;
+}
+input {
+    margin: 8px 0;
+    height: 48px;
+}
+/*.calen {*/
+/*    background-image: url("./icons/calendar-regular.svg");*/
+/*    background-position: right;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+.form-control {
+    font-size: 14px;
+    color: #DFDFDF;
+}
+button {
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.btn-next {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+a:hover {
+    color: #FFFFFF;
+}
