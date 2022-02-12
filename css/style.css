@@ -14,12 +14,14 @@
     background-color: #fff;
     border-radius: 5px;
 }
-.container1 {
+.cont1 {
     width: 640px;
     height: 264px;
-    background-color: #fff;
-    border-radius: 5px;
     padding: 40px 16px 48px;
+}
+.cont3 {
+    width: 640px;
+    height: 328px;
 }
 .cont2 {
     width: 664px;
