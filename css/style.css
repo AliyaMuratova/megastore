@@ -46,7 +46,12 @@ input {
 }
 .form-control {
     font-size: 14px;
-    color: #DFDFDF;
+}
+.calen {
+    background-image: url("./icons/calendar-regular.svg");
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
 button {
     width: 384px;
