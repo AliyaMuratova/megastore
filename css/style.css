@@ -27,6 +27,7 @@
     width: 664px;
     height: 608px;
 }
+
 .title {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -97,6 +98,12 @@ input {
     font-weight: 600;
     color: black;
     padding: 8px 16px;
+}
+.approval_icon {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 32px auto;
 }
 button {
     width: 384px;
