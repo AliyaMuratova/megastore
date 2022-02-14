@@ -78,10 +78,16 @@ input {
     font-size: 14px;
 }
 .calen {
-    background-image: url("../icons/calendar-regular.svg");
-    background-position: 90%;
+    background-image: url("../icons/Calendar.svg");
+    background-position: 95%;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 25px;
+}
+.vector {
+    background-image: url("../icons/Vector.svg");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 15px;
 }
 .conf_input {
     width: 48px;
