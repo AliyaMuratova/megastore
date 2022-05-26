@@ -12,54 +12,53 @@
         <p class="title">Анкета  для корпоративных клиентов</p>
         <div class="personal">
             <p class="desc">Личные данные</p>
-            <form class="row">
+            <form class="row js-form">
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Фамилия">
+                    <input type="text" class="form-control important" id="surname" name="surname" placeholder ="Фамилия">
                 </div>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Имя">
+                    <input type="text" class="form-control important" placeholder="Имя" name="name" id="name">
                 </div>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Отчество">
+                    <input type="text" class="form-control" placeholder="Отчество" name="secondName">
+                </div>
+                <p class="desc">Паспортные данные</p>
+                <div class="col-md-4">
+                    <input type="text" class="form-control calen" placeholder="Дата рождения" name="DOB">
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Место проживания по прописке" name="placeOfResidence">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control important" placeholder="Серийный номер AN/ID" id="idNumber" name="idNumber">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control important" placeholder="ИНН" id="inn" name="inn">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control calen important" placeholder="Дата получения" id="date" name="dateOfReceiving">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Контактный номер" name="phoneNumber">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Электронный адрес" name="email">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control vector" placeholder="Наименование банка" name="bank">
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Фактическое место проживания" name="address">
+                </div>
+                <div class="btn-next">
+                    <button class="btn" type="submit">Далее</button>
                 </div>
             </form>
         </div>
-        <div class="passport">
-            <p class="desc">Паспортные данные</p>
-            <form class="row">
-                <div class="col-md-4">
-                    <input type="text" class="form-control calen" placeholder="Дата рождения">
-                </div>
-                <div class="col-md-8">
-                    <input type="text" class="form-control" placeholder="Место проживания по прописке">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Серийный номер AN/ID">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="ИНН">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control calen" placeholder="Дата получения">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Контактный номер">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Электронный адрес">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control vector" placeholder="Наименование банка">
-                </div>
-                <div class="col-md-8">
-                    <input type="text" class="form-control" placeholder="Фактическое место проживания">
-                </div>
-            </form>
-        </div>
-        <div class="btn-next">
-            <button><a href="form2.html">Далее</a></button>
-        </div>
+
     </div>
 </div>
+
+<script src="main.js"></script>
 </body>
 </html>
